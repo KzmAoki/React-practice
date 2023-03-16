@@ -2,7 +2,8 @@ import "./styles.css";
 import { ColoredMessage } from "./components/ColoredMessage";
 import { useState } from "react";
 import { useEffect } from "react";
-import { CssModules } from "./components/CssModules";
+// import { CssModules } from "./components/CssModules";
+import { StyledJsx } from "./components/StyledJsx";
 
 export const App = () => {
   const [ num, setNum ] = useState(0); 
@@ -22,7 +23,8 @@ export const App = () => {
       <h2>Start editing to see some magic happen!</h2>
       <button onClick = {onClickButton}>Push Button</button>
       <p>{num}</p> */}
-      <CssModules />
+      {/* <CssModules /> */}
+      <StyledJsx />
     </div>
   );
 }
