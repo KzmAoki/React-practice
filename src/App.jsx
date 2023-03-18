@@ -3,7 +3,9 @@ import { ColoredMessage } from "./components/ColoredMessage";
 import { useState } from "react";
 import { useEffect } from "react";
 // import { CssModules } from "./components/CssModules";
-import { StyledJsx } from "./components/StyledJsx";
+// import { StyledJsx } from "./components/StyledJsx";
+// import { StyledComponents } from "./components/StyledComponents";
+// import { Emotion } from "./components/Emotion";
 
 export const App = () => {
   const [ num, setNum ] = useState(0); 
@@ -24,7 +26,9 @@ export const App = () => {
       <button onClick = {onClickButton}>Push Button</button>
       <p>{num}</p> */}
       {/* <CssModules /> */}
-      <StyledJsx />
+      {/* <StyledJsx /> */}
+      {/* <StyledComponents /> */}
+      {/* <Emotion /> CSS問題未解決 */}
     </div>
   );
 }
